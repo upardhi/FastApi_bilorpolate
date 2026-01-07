@@ -1,3 +1,7 @@
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from app.core.config import settings
 from app.api.routes.health import router as health_router
